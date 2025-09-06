@@ -4,5 +4,66 @@
     box-sizing: border-box;
 }
 .logo{
-    max-width: 4rem;
+    max-width: 10rem;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: antiquewhite;
+}
+.nav_list{
+    display: flex;
+    list-style-type:none;
+    gap: 2rem;
+}
+.nav_list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.open{
+    display: none;
+}
+.close{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: antiquewhite;
+    padding: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+    .open , .close{
+        display: block;
+    }
+    .open{
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 0.3rem;
+        cursor: pointer;
+    }
+    .nav_list{
+        flex-direction: column;
+        background-color: antiquewhite;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
 }
