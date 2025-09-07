@@ -6,6 +6,9 @@
     <title>Franco Gallardo</title>
     <meta name="description" content="This is my personal website.">
     <meta name="author" content="Franco Gallardo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/my_site.css">
     <link rel="stylesheet" href="style/my_site_large.css">
@@ -16,9 +19,6 @@
         <img class="logo" src="images/logo1.svg" alt="logo">
         <span class="site_name">Franco Gallardo</span>
         
-    </header>
-    
-    <main>
         <button class="open" id="open">☰</button>
         <nav class="nav" id="nav">
             <button class="close" id="close">×</button>
@@ -28,6 +28,10 @@
                 <li><a href="#">Final </a></li>
             </ul>
         </nav>
+    </header>
+    
+    <main>
+        
             <h1>Home</h1>
             <div class="content">
                 <section class="about_me">
@@ -41,14 +45,18 @@
                 <img src="images/profile.jpg" alt="Profile picture">
                 </div>
             </div>
-            <section>
-                <h1>Web Cetificate Courses</h1>
-            </section>
+            <h1>Web Cetificate Courses</h1>
+            <div class="buttons">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <div id="totalCredits"></div>
+            <section id="coursesContainer" class="courses"></section>
     </main>
     <footer>
         <div class="footer_content">
-            <p>&copy; <span id="currentyear"></span> ✩ Franco Gallardo ✩ Argentina ✩</p>
-            <p id="lastModified"></p>
+            
             <div class="social_media">
                 <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
                 <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
@@ -56,7 +64,8 @@
                 <a href="#"><img src="images/linkedin.svg" alt="LinkedIn"></a>
 
             </div>
-
+            <p>&copy; <span id="currentyear"></span> ✩ Franco Gallardo ✩ Argentina ✩</p>
+            <p id="lastModified"></p>
         </div>
     </footer>
 </body>
