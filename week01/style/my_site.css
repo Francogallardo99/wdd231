@@ -2,35 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-.logo{
+.logo {
     max-width: 10rem;
 }
-header{
+header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 2rem;
     padding: 2rem;
     background-color: antiquewhite;
 }
-.nav_list{
-    display: flex;
-    list-style-type:none;
-    gap: 2rem;
-}
-.nav_list li a{
-    text-decoration: none;
+.site_name {
+    font-size: 2rem;
     color: black;
+}
+.nav_list {
+    display: flex;
+    flex-direction: column; 
+    list-style-type: none;
+    gap: 2rem;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.nav_list li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.open, .close {
+    display: block; 
+    padding: 0.5rem 1rem;
     font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
 }
-.open{
-    display: none;
-}
-.close{
-    display: none;
-}
-@media screen and (max-width: 600px){
-    .nav{
+.nav {
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -44,26 +56,37 @@ header{
     visibility: hidden;
     transition: opacity 0.5s ease;
 }
-    .open , .close{
-        display: block;
-    }
-    .open{
-        padding: 0.5rem 1rem;
-        font-size: 1.2rem;
-        background-color: black;
-        color: white;
-        border: none;
-        border-radius: 0.3rem;
-        cursor: pointer;
-    }
-    .nav_list{
-        flex-direction: column;
-        background-color: antiquewhite;
-        padding: 1rem;
-        border-radius: 0.5rem;
-    }
-    .nav.visible{
-        opacity: 1;
-        visibility: visible;
-    }
+.nav.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+}
+.about_me{
+    padding: 2rem;
+    border: white 2px solid;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+.photo h1 , .about_me h2{
+    text-align: center;
+    text-decoration: underline;
+    padding: 1rem;
+}
+
+.photo{
+    padding: 2rem;
+    border: white 2px solid;
+    border-radius: 15px;
+}
+main{
+    background-color: #4F517D;
+    color: whitesmoke;
+}
+footer{
+    background-color: #A997DF;
 }

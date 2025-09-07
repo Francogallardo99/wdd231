@@ -1,0 +1,20 @@
+@media screen and (min-width: 601px) {
+    .nav {
+        all: unset; 
+        position: static;
+        display: block;
+    }
+    .nav_list {
+        flex-direction: row; 
+        gap: 2rem;
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+    }
+    .open, .close {
+        display: none; 
+    }
+    .close {
+        display: none;
+    }
+}
