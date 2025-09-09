@@ -1,0 +1,42 @@
+@media screen and (min-width: 601px) {
+    
+    
+    .open, .close {
+        display: none; 
+    }
+
+    .nav {
+        all: unset; 
+        display: block;
+        visibility: visible ;
+    }
+
+    .nav_list {
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .nav_list li a {
+        font-size: 1.3rem; 
+        color: black; 
+        text-decoration: none;
+    }
+
+    
+    .content {
+        display: grid; 
+        grid-template-columns: 2fr 1fr;
+        gap: 4rem; 
+    }
+    .buttons {
+        display: grid;
+        text-align: center;
+        margin-bottom: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+    .buttons button{
+        background-color: cornsilk
+    }
+}
