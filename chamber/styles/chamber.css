@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #4F517D;
+    background-color: #212237;
     color: whitesmoke;
 }
 
@@ -226,6 +226,15 @@ footer {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+.website-link {
+    color: white;
+    text-decoration: none;
+}
+
+.website-link:hover {
+    text-decoration: underline;
+}
+
 .grid-view-active {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -253,11 +262,11 @@ footer {
     display: none;
 }
 main button.active {
-    background-color: #A997DF;
-    color: white;
+    background-color: #bdaaf8;
+    color: black;
 }
 main button {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     color: black;
     border: none;
     border-radius: 0.3rem;
