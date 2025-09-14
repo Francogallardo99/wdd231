@@ -76,8 +76,6 @@ const displayBusinesses = (businesses) => {
   });
 }
 
-
-
 const gridButton = document.getElementById('grid-view');
 const listButton = document.getElementById('list-view');
 const cardsContainer = document.querySelector('#cards');
