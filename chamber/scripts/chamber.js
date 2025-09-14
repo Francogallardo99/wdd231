@@ -76,7 +76,7 @@ const displayBusinesses = (businesses) => {
   });
 }
 
-getBusinessData();
+
 
 const gridButton = document.getElementById('grid-view');
 const listButton = document.getElementById('list-view');
