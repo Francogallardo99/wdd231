@@ -36,8 +36,8 @@ const displayProphets = (prophets) => {
 getProphetData();
 
 
-{
-  "businesses": [
+
+  [
     {
       "name": "TechInnovate S.A.",
       "address": "123 General Paz Ave, Córdoba",
@@ -116,4 +116,3 @@ getProphetData();
       "description": "A high-complexity medical center with multiple specialties."
     }
   ]
-}

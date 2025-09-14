@@ -206,3 +206,66 @@ footer {
     width: 100%;
     height: auto;        
 }
+
+.business-card {
+        border: white 2px solid;
+        border-radius: 10px;
+        padding: 1rem;
+        text-align: center;
+    }
+.business-card img{
+        width: 300px;
+        height: auto;        
+    }
+
+.cards section {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.grid-view-active {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.list-view-active {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list-view-active section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.list-view-active section img,
+.list-view-active section .description,
+.list-view-active section .member-level ,
+.list-view-active section .website-link {
+    display: none;
+}
+main button.active {
+    background-color: #A997DF;
+    color: white;
+}
+main button {
+    background-color: antiquewhite;
+    color: black;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.view-toggles {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+}
