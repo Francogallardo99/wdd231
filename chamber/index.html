@@ -32,24 +32,39 @@
     </header>
     <main>
         <img src="images/chamber.webp" alt="Cordoba Chamber" class="main_image">
-        <h1>Directory</h1>
+        <h1>Home</h1>
+        <a class="join" href="#">Join Us Now</a>
         <section class="main_section">
             <div class="event">
-                <h2>Event</h2>
+                <h2>ExpoNegocios 2025</h2>
                 <p>The Cordoba Chamber of Commerce organized a business networking event called ExpoNegocios 2025, where more than 50 local small and medium-sized enterprises showcased their products and services.</p>
                 <img src="images/exponegocios_2025.png" alt="Image of ExpoNegocios 2025">
             </div>
+            <div class="event">
+                <h2> Negotiation of the "Grains and Future" Agreement</h2>
+                <p>At the Córdoba Chamber of Commerce, directors are negotiating a crucial agreement with agricultural producers to improve provincial roads. Tensions are rising, as business owners claim massive losses due to the poor state of the roads, while producers insist on the need for this investment for regional competitiveness.</p>
+                <img src="images/Grains_and_Future.webp" alt="Image of Grains and Future Agreement">
+            </div>  
+            <div class="event">
+                <h2>Launch of the "Young Cordoban Entrepreneur" Program</h2>
+                <p>The main hall is full of university students and young professionals, eager for the launch of a program that offers mentorship and seed capital to new businesses. The Chamber's president inspires attendees with speeches about innovation, while the young people, full of energy and optimism, dream of their projects' success.</p>
+                <img src="images/Young_Cordoban_Entrepreneur.webp" alt="Image of Young Cordoban Entrepreneur Program">
+            </div>
+            <div class="event">
+                <h2>Emergency Meeting on the "Water Crisis"</h2>
+                <p>Owners of small and medium-sized businesses are holding an emergency meeting due to water cuts that threaten to paralyze their operations. The affected parties, some angry and others desperate, are seeking an urgent solution to avoid economic losses and are discussing whether to lobby the government or negotiate a fairer rationing system.</p>
+                <img src="images/Water_Crisis.webp" alt="Image of Water Crisis Meeting">
+            </div>
             <div class="weather">
                 <h2>Current Weather</h2>
-                <img src="images/cloudy.png" alt="Weaher Icon">
                 <div>
-                    <p><strong>75° F</strong></p>
-                    <p>Cloudy</p>
+                    <h2 id="town"></h2>
+                    <img id="graphic" src="" alt="">
+                    <p id="description"></p>
+                    <p id="temperature"></p>
                     <p>High: 85°</p>
                     <p>Low: 52°</p>
                     <p>Humidity: 78%</p>
-                    <p>Sunrise: 7:30</p>
-                    <p>Sunset: 21:59</p>
                 </div>
             </div>
             <div class="forecast">
@@ -65,6 +80,7 @@
         </div>
         <div  class="cards grid-view-active"></div>
         <div id="cards" class="cards"></div>
+        <script src="scripts/wether.js"></script>
     </main>
     <footer>
             <div class="footer_content">
