@@ -8,7 +8,7 @@
     <meta property="og:description" content="Directory of businesses and services in Cordoba">
     <meta property="og:author" content="Franco Gallardo">
     <link rel="icon" href="images/favicon.ico">
-    <script src="scripts/chamber.js" defer></script>
+    <script type="module" src="scripts/main.js"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/chamber_large.css">
@@ -36,11 +36,6 @@
         <a class="join" href="#">Join Us Now</a>
         <section class="main_section">
             <div class="event">
-                <h2>ExpoNegocios 2025</h2>
-                <p>The Cordoba Chamber of Commerce organized a business networking event called ExpoNegocios 2025, where more than 50 local small and medium-sized enterprises showcased their products and services.</p>
-                <img src="images/exponegocios_2025.png" alt="Image of ExpoNegocios 2025">
-            </div>
-            <div class="event">
                 <h2> Negotiation of the "Grains and Future" Agreement</h2>
                 <p>At the Córdoba Chamber of Commerce, directors are negotiating a crucial agreement with agricultural producers to improve provincial roads. Tensions are rising, as business owners claim massive losses due to the poor state of the roads, while producers insist on the need for this investment for regional competitiveness.</p>
                 <img src="images/Grains_and_Future.webp" alt="Image of Grains and Future Agreement">
@@ -55,6 +50,8 @@
                 <p>Owners of small and medium-sized businesses are holding an emergency meeting due to water cuts that threaten to paralyze their operations. The affected parties, some angry and others desperate, are seeking an urgent solution to avoid economic losses and are discussing whether to lobby the government or negotiate a fairer rationing system.</p>
                 <img src="images/Water_Crisis.webp" alt="Image of Water Crisis Meeting">
             </div>
+            </section>
+            <section class="weather_forecast">
             <div class="weather">
                 <h2>Current Weather</h2>
                 <div>
@@ -62,25 +59,24 @@
                     <img id="graphic" src="" alt="">
                     <p id="description"></p>
                     <p id="temperature"></p>
-                    <p>High: 85°</p>
-                    <p>Low: 52°</p>
-                    <p>Humidity: 78%</p>
+                    <p id="humidity"></p>
+                    <p id="max_temperature"></p>
+                    <p id="min_temperature"></p>
                 </div>
             </div>
             <div class="forecast">
                 <h2>Wheather Forecast</h2>
-                <img src="images/sun.png" alt="Sun Icon">
-                <p>Today: 90°F</p>
-                <p>Sunday: 83°F </p>
+                <h2 id="town1"></h2>
+                    <img id="graphic1" src="" alt="">
+                    <p id="description1"></p>
+                    <p id="temperature1"></p>
+                    <p id="humidity1"></p>
+                    <p id="max_temperature1"></p>
+                    <p id="min_temperature1"></p>
             </div>
-        </section>
-        <div class="view-toggles">
-        <button id="grid-view" class="active">Grid View</button>
-        <button id="list-view">List View</button>
-        </div>
-        <div  class="cards grid-view-active"></div>
-        <div id="cards" class="cards"></div>
-        <script src="scripts/wether.js"></script>
+            </section>             
+
+        <div id="business_filtred" class="cards"></div>
     </main>
     <footer>
             <div class="footer_content">
