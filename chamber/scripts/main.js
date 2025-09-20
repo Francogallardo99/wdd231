@@ -9,11 +9,8 @@ import { getFilteredBusinessData } from "./filtred_directory.js";
 
 updateFooter();
 setupNav();
-setupViewToggle();
-
 getBusinessData();
-
-getFilteredBusinessData();
-
+setupViewToggle();
 apiFetch().then(displayResults);
 apiFetchForecast().then(displayResultsForecast);
+getFilteredBusinessData();
