@@ -17,12 +17,10 @@ function displayFilteredBusinesses(businesses) {
   const container = document.querySelector('#business_filtred');
   if (!container) return;
 
-  // Filtrar negocios con membershipLevel 2 o 3
   const filtered = businesses.filter(
     (business) => business.membershipLevel === 2 || business.membershipLevel === 3
   );
 
-  // Tomar solo 3 aleatorios
   const top3 = filtered.sort(() => 0.5 - Math.random()).slice(0, 3);
 
   top3.forEach((business) => {
