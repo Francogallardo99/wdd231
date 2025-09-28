@@ -37,7 +37,7 @@
                 <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="name" required>
             
                 <label for="lastname">Last name*</label>
-                <input type="text" name="lastname" id="lastname" placeholder="Enter your Last name" autocomplete="lastname" required>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter your Last name" autocomplete="family-name" required>
             
                 <label for="organization-title">Organization title:</label>
                 <input type="text" id="organization-title" name="organization-title" autocomplete="organization-title" pattern="^[A-Za-z\s-]{7,}$" placeholder="CEO">
@@ -46,10 +46,10 @@
                 <input type="email" name="email" id="email" placeholder="CEO@organization.org" required>
             
                 <label for="phone">Phone number*</label>
-                <input type="tel" name="phone" id="phone" placeholder="3515555555" pattern="[0-9]{7,15}" autocomplete="phone" required>
+                <input type="tel" name="phone" id="phone" placeholder="3515555555" pattern="[0-9]{7,15}" autocomplete="tel" required>
             
                 <label for="organization_name">Organization Name*</label>
-                <input type="text" name="organization_name" id="organization_name" placeholder="Type the organization name" autocomplete="organization_name" required>
+                <input type="text" name="organization_name" id="organization_name" placeholder="Type the organization name" autocomplete="organization" required>
             
                 <label for="org_description">Written Review</label>
                 <textarea name="org_description" id="org_description" rows="3" placeholder="Enter a description of your organization"></textarea>
@@ -61,14 +61,14 @@
             <h2>Membership Level</h2>                
                 <div class="membership-item">
                     <input type="radio" id="np" name="membership" value="NP" required>
-                    <label for="np"><img src="images/np.webp" alt="NP Membership image" width="200px" height="200px"></label>
+                    <label for="np">NP<img src="images/np.webp" alt="NP Membership image"></label>
                     
                     <button class="learn-more-btn" data-index="0">Learn more</button> 
                 </div>
 
                 <div class="membership-item">
                     <input type="radio" id="bronze" name="membership" value="bronze" required>
-                    <label for="bronze"><img src="images/bronze.webp" alt="Bronze Membership image" width="200px" height="200px"></label>
+                    <label for="bronze">Bronze<img src="images/bronze.webp" alt="Bronze Membership image"></label>
 
                     <button class="learn-more-btn" data-index="1">Learn more</button>
                 </div>
@@ -76,14 +76,14 @@
 
                 <div class="membership-item">
                     <input type="radio" id="silver" name="membership" value="silver">
-                    <label for="silver"><img src="images/silver.webp" alt="Silver Membership image" width="200px" height="200px"></label>
+                    <label for="silver">Silver<img src="images/silver.webp" alt="Silver Membership image"></label>
 
                     <button class="learn-more-btn" data-index="2">Learn more</button> 
                 </div>
 
                 <div class="membership-item">
                     <input type="radio" id="gold" name="membership" value="gold">
-                    <label for="gold"><img src="images/gold.webp" alt="Gold Membership image" width="200px" height="200px"></label>
+                    <label for="gold">Gold<img src="images/gold.webp" alt="Gold Membership image"></label>
 
                     <button class="learn-more-btn" data-index="3">Learn more</button> 
                 </div>
@@ -92,7 +92,7 @@
                     <button id="close_modal" class="close_modal">X</button>
                 </dialog>
             </div>
-            
+
             <button type="submit">Send Application </button>
         </form>
     </main>
