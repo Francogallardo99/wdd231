@@ -12,7 +12,7 @@ export function processURLParameters() {
             <p>Email: ${myInfo.get("email")}</p>
             <p>Membership Level: ${myInfo.get("membership")}</p>            `;
     } else {
-        console.error("No se encontró el elemento con ID 'results' para mostrar la información.");
+        console.error("ID 'results' not found in the document.");
     }
 }
 
