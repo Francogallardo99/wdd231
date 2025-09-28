@@ -111,11 +111,15 @@ function renderCourses(coursesToRender) {
     coursesContainer.innerHTML = ''; 
     coursesToRender.forEach(course => {
         const courseElement = document.createElement('div');
-        courseElement.innerHTML = `
-            <h3>${course.subject} ${course.number} - ${course.title}</h3>
-            <p><strong>Crédits:</strong> ${course.credits}</p>
-            <p>${course.description}</p>
-        `;
+        
+        const courseName = document.createElement('h4');
+        courseName.textContent = `${course.subject} ${course.number} - ${course.title}`;
+        
+        courseName.addEventListener('click', () => {
+            showCourseDetailsInDialog(course);
+        });
+
+        courseElement.appendChild(courseName);
         coursesContainer.appendChild(courseElement);
     });
 }
@@ -150,3 +154,34 @@ cseButton.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
     filterAndRender();
 });
+
+const course_description = document.querySelector("#course_description");
+const open_modal = document.querySelector("#open_modal");
+const close_modal = document.querySelector("#close_modal");
+
+close_modal.addEventListener("click" , () => {
+    course_description.close();
+});
+
+function showCourseDetailsInDialog(course){
+    const dialogCourse = document.getElementById("dialog-content")
+    dialogCourse.innerHTML ="";
+
+    const title = document.createElement("h2");
+    title.textContent = `${course.subject} ${course.number} - ${course.title}`;
+
+    const credits = document.createElement("p");
+    credits.innerHTML = `Total credits: ${course.credits}`;
+
+    const description =document.createElement("p");
+    description.innerHTML = `Description of the course:<br>${course.description}`;
+
+    const technology = document.createElement("p");
+    technology.innerHTML = `Technology used: ${course.technology}`;
+
+    dialogCourse.appendChild(title);
+    dialogCourse.appendChild(credits);
+    dialogCourse.appendChild(description);
+    dialogCourse.appendChild(technology);
+    course_description.showModal();
+}

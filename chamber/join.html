@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordoba Chamber Directory</title>
+    <meta property="og:title" content="Cordoba Chamber Directory">
+    <meta property="og:description" content="Directory of businesses and services in Cordoba">
+    <meta property="og:author" content="Franco Gallardo">
+    <link rel="icon" href="images/favicon.ico">
+    <script type="module" src="scripts/main.js"></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber_large.css">
+</head>
+<body>
+    <header>
+        <div >
+            <img src="images/favicon.ico" alt="Cordoba Chamber Logo"  width="50" height="50">
+            <h1>Cordoba Chamber Directory</h1>
+        </div>
+        <button class="open" id="open">☰</button>
+        <nav class="nav" id="nav">
+            <button class="close" id="close">×</button>
+            <ul class="nav_list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join </a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+            <div class="form">
+                <label for="name">Name*</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="name" required>
+            
+                <label for="lastname">Last name*</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter your Last name" autocomplete="lastname" required>
+            
+                <label for="organization-title">Organization title:</label>
+                <input type="text" id="organization-title" name="organization-title" autocomplete="organization-title" pattern="^[A-Za-z\s-]{7,}$" placeholder="CEO">
+            
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" placeholder="CEO@organization.org" required>
+            
+                <label for="phone">Phone number*</label>
+                <input type="tel" name="phone" id="phone" placeholder="3515555555" pattern="[0-9]{7,15}" autocomplete="phone" required>
+            
+                <label for="organization_name">Organization Name*</label>
+                <input type="text" name="organization_name" id="organization_name" placeholder="Type the organization name" autocomplete="organization_name" required>
+            
+                <label for="org_description">Written Review</label>
+                <textarea name="org_description" id="org_description" rows="3" placeholder="Enter a description of your organization"></textarea>
+            </div>
+
+            <input type="hidden" id="timestamp_carga" name="timestamp_carga" value="">
+
+            <div class="membership">
+            <h2>Membership Level</h2>                
+                <div class="membership-item">
+                    <input type="radio" id="np" name="membership" value="NP" required>
+                    <label for="np"><img src="images/np.webp" alt="NP Membership image" width="200px" height="200px"></label>
+                    
+                    <button class="learn-more-btn" data-index="0">Learn more</button> 
+                </div>
+
+                <div class="membership-item">
+                    <input type="radio" id="bronze" name="membership" value="bronze" required>
+                    <label for="bronze"><img src="images/bronze.webp" alt="Bronze Membership image" width="200px" height="200px"></label>
+
+                    <button class="learn-more-btn" data-index="1">Learn more</button>
+                </div>
+
+
+                <div class="membership-item">
+                    <input type="radio" id="silver" name="membership" value="silver">
+                    <label for="silver"><img src="images/silver.webp" alt="Silver Membership image" width="200px" height="200px"></label>
+
+                    <button class="learn-more-btn" data-index="2">Learn more</button> 
+                </div>
+
+                <div class="membership-item">
+                    <input type="radio" id="gold" name="membership" value="gold">
+                    <label for="gold"><img src="images/gold.webp" alt="Gold Membership image" width="200px" height="200px"></label>
+
+                    <button class="learn-more-btn" data-index="3">Learn more</button> 
+                </div>
+                <dialog id="member_description" class="dialog">
+                    <div id="dialog-content"></div>
+                    <button id="close_modal" class="close_modal">X</button>
+                </dialog>
+            </div>
+            
+            <button type="submit">Send Application </button>
+        </form>
+    </main>
+    <footer>
+            <div class="footer_content">
+            
+            <div>
+                <p> <strong>Chamber of commerce Cordoba </strong> <br> San Martín 123 <br> Córdoba, Córdoba, Argentina <br> info@camaradecomerciocba.org <br> (351) 555-1234</p> 
+            </div>
+
+            <div class="social_media">
+                <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+
+            </div>
+            <div>
+            <p>&copy; <span id="currentyear"></span> ✩ Franco Gallardo ✩ Argentina ✩</p>
+            <p id="lastModified"></p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

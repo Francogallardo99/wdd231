@@ -162,3 +162,81 @@ footer {
     gap: 2rem;
     padding: 1rem;
 }
+.course{
+    align-items: center;
+}
+.dialog {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+}
+::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+.close_modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#animation {
+    font-size: 3rem;
+    text-align: center;
+    animation: spin 4s linear infinite alternate;
+    margin-bottom: 1rem;
+}
+
+#animation ::after {
+    content: "⚙️";
+    transform: translate(-50%, -50%);
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.animation2{
+    content: "z";    
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.animation2::after{
+    content: "🚀";
+    transform: translate(-50%, -50%);
+}
+.animation2:hover {
+    animation-play-state: paused;
+}
+@keyframes move {
+    from {
+        left: 10px;
+    }
+    to{
+        left: 95%;
+    }
+}
