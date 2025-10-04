@@ -1,0 +1,130 @@
+* {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #44A1A0;
+    color: black;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 40%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #E2C044;
+    position: relative; 
+}
+
+.site_name {
+    font-size: 2rem;
+    color: black;
+}
+
+
+.open, .close {
+    display: block; 
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 100%; 
+    right: 0;
+    left: 0; 
+    background-color: antiquewhite;
+    padding: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.nav.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: column; 
+    list-style-type: none;
+    gap: 2rem;
+    width: 100%; 
+    align-items: center;
+}
+
+.nav_list li a {
+    text-decoration: none;
+    color: #4F517D;
+    font-size: 2rem;
+}
+
+
+main {
+    padding: 1rem;
+}
+
+.content {
+    display: flex; 
+    flex-direction: column;
+    gap: 2rem; 
+}
+
+.about_us, .photo {
+    padding: 2rem;
+    border: black 2px solid;
+    border-radius: 15px;
+}
+.photo img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.photo h1, .about_us h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.about_us {
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #78CDD7;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.footer_content {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
