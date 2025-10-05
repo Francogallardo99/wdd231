@@ -1,0 +1,19 @@
+@media screen and (min-width: 642px) and (max-width: 1024px) {
+    .discover{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .article-card img {
+    grid-area: image;
+    justify-self: center;
+    align-self: center;
+    transition: transform 0.3s ease-in-out; 
+    display: block; 
+    }
+
+    .article-card img:hover {
+        transform: scale(1.2); 
+        z-index: 10; 
+    }
+}

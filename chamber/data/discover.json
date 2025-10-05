@@ -1,52 +1,60 @@
 {
-  "discover": [
+  "chamber_of_commerce_articles": [
     {
-        "name" :
-        "address" :
-        "description" :
-        "image" :
+      "id": 1,
+      "title": "Workshop: SME Financing 2025",
+      "description": "An intensive workshop for SME owners to learn how to optimize cash flow and access the new credit lines offered by Banco de Córdoba.",
+      "location": "Chamber Headquarters - Bv. Chacabuco 152, Centro.",
+      "image_url":"images/article1.webp"
     },
     {
-        "name" :
-        "address" :
-        "description" :
-        "image" :
+      "id": 2,
+      "title": "Commercial Observatory: Consumption Trends Report",
+      "description": "Presentation of the latest data on consumer behavior and profitability in the Central Area, with projections and trends for the final quarter.",
+      "location": "Stock Exchange Main Auditorium - Av. Vélez Sarsfield 280.",
+      "image_url": "images/article2.webp"
     },
     {
-        "name" :
-        "address" :
-        "description" :
-        "image" :
+      "id": 3,
+      "title": "Seminar: Exporting Knowledge Economy Services",
+      "description": "A seminar focused on Córdoba's tech industry. A practical guide on requirements, logistics, and financing for exporting software and consulting services.",
+      "location": "Innovation Co-Work Space - Av. Colón 1500, Cofico.",
+      "image_url": "images/article3.webp"
     },
     {
-        "name" :
-        "address" :
-        "description" :
-        "image" :
+      "id": 4,
+      "title": "Working Breakfast: Labor Reform and Hiring",
+      "description": "An exclusive meeting for members with a specialist lawyer, analyzing the most recent changes in labor regulations and their impact on personnel management.",
+      "location": "“La Cañada” Executive Lounge - Fray Mamerto Esquiú 125.",
+      "image_url": "images/article4.webp"
     },
     {
-        "name" :
-        "address" :
-        "description" :
-        "image" :
+      "id": 5,
+      "title": "Business Round: 'Cuyo-Central' Regional Linkage",
+      "description": "A networking event designed to connect Córdoba entrepreneurs with peers from Mendoza and San Juan, seeking strategic alliances and new distribution channels.",
+      "location": "Córdoba Convention Center - Av. Carcano s/n, Predio Ferial.",
+      "image_url": "images/article5.webp"
     },
     {
-        "name" :
-        "address" :
-        "description" :
-        "image" :
+      "id": 6,
+      "title": "Webinar: Post-Pandemic Digital Marketing Strategies",
+      "description": "An online session on social media strategies, e-commerce, and segmented advertising, crucial for maintaining relevance and sales in the current digital environment.",
+      "location": "Online Format (Zoom) - Pre-Registration Required on the Website.",
+      "image_url": "images/article6.webp"
     },
     {
-        "name" :
-        "address" :
-        "description" :
-        "image" :
+      "id": 7,
+      "title": "“My Sustainable Business” Certification Program",
+      "description": "A mentorship and evaluation program to help businesses implement waste management and energy efficiency practices, earning an official sustainability seal.",
+      "location": "Productive Development Agency (Fictional) - 27 de Abril 750, Of. 301.",
+      "image_url": "images/article7.webp"
     },
     {
-        "name" :
-        "address" :
-        "description" :
-        "image" :
+      "id": 8,
+      "title": "Discussion Panel: Challenges for Young Entrepreneurs",
+      "description": "Monthly meeting for the Young Entrepreneurs Commission. Discussion on obstacles to accessing initial capital and local development policies.",
+      "location": "“El Central” Historic Café - San Jerónimo 450, Centro.",
+      "image_url": "images/article8.webp"
     }
-    ]
+  ]
 }

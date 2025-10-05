@@ -7,8 +7,8 @@ import { apiFetch as apiFetchForecast, displayResults as displayResultsForecast 
 import { getFilteredBusinessData } from "./filtred_directory.js";
 import { showCourseDetailsInDialog } from "./modal.js";
 import { processURLParameters } from "./information.js"; 
-
-
+import { getArticleData } from "./discover.js"; 
+import { handleVisitMessage } from "./message.js"; 
 
 updateFooter();
 setupNav();
@@ -19,3 +19,5 @@ apiFetchForecast().then(displayResultsForecast);
 getFilteredBusinessData();
 showCourseDetailsInDialog();
 processURLParameters();
+getArticleData();
+handleVisitMessage(); 
