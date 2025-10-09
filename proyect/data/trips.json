@@ -1,0 +1,109 @@
+{
+  "trips": [
+        {
+            "place_name" : "Alma Fuerte",
+            "image" : "images/alma_fuerte",
+            "province" : "Cordoba",
+            "year" : 2024,
+            "description" : "We instantly fell in love with the purity of Lake Piedras Moras, a true ecological treasure. We spent the day enjoying the sand, the sun, and the spectacular views. The crystal-clear water is perfect!To complement our beach day, we relaxed next to the Ctalamochita River under the shade of the trees. Mate, silence, and the serene beauty of the hills (sierras)"
+        },
+        {
+            "place_name": "Cabalango",
+            "image" : "images/cabalango",
+            "province" : "Cordoba",
+            "year" : 2023,
+            "description" : "A hidden corner in the Punilla Valley. Cabalango gave us a day of complete peace by the Los Chorrillos River. Its natural 'pools' (or 'pots') and small sandy beaches are perfect for a refreshing dip. Pure air, nature, and that sense of relaxation you only find outside the main tourist circuit. A Cordoban secret worth discovering."
+        },
+        {
+            "place_name" :"Villa Carlos Paz",
+            "image" : "images/carlos_paz" ,
+            "province" : "Cordoba",
+            "year" : 2024,
+            "description" :"The quintessential tourist city, and for good reason! In Villa Carlos Paz, we combined the relaxation of Lake San Roque with the vibrant pace of the downtown area. Going up to the Cerro de la Cruz (Hill of the Cross) gave us a spectacular panoramic view of the city and the sunset.It's ideal if you're looking for a river, hills (sierras), and plenty of nightlife."
+        },
+        {
+            "place_name" : "Cordoba Temple",
+            "image" : "images/cordoba_temple",
+            "province" : "Cordoba",
+            "year" : 2023,
+            "description" : "This time, we went to the Church of Jesus Christ of Latter-day Saints temple to attend and share in the experience with some friends of ours who were able to be sealed in the temple.It was a great experience to witness that moment when our friends took this step, and it helped us continue preparing so that we can be sealed ourselves."
+        },
+        {
+            "place_name" : "Cuesta Blanca",
+            "image" : "images/cuesta_blanca",
+            "province" : "Cordoba",
+            "year" : 2023 ,
+            "description" : "Our refuge in the Los Gigantes Water Reserve! Cuesta Blanca is synonymous with a river in its purest state. The waters are clear and have different depths (or levels), perfect both for swimming and for simply soaking your feet.It's a place to enjoy the native forest and the sunshine of the hills (sierra)."
+        },
+        {
+            "place_name" : "Hippies River",
+            "image" : "images/hippies_river",
+            "province" : "Cordoba",
+            "year" : 2023,
+            "description" : "A rustic and secret paradise.To reach the Playa de los Hippies (Hippies' Beach), you have to take a walk (or go by canoe), which adds an element of adventure to the experience. The effort is worth it: it's a natural riverside resort with a relaxed and bohemian atmosphere.Remember: it's a protected area, so you can only visit for the day!"
+        },
+        {
+            "place_name" : "Kilgruman",
+            "image" : "images/kilgruman",
+            "province" : "Cordoba",
+            "year" : 2023 ,
+            "description" : "We had the opportunity and great blessing to participate in an FSY (For the Strength of Youth) as counselors and coordinators.It was a special experience where we were able to learn more about the gospel and see how the youth could strengthen their testimonies and share their great spiritual experiences with us."
+        },
+        {
+            "place_name" : "Centennial Bridge",
+            "image" : "images/centennial_bridge",
+            "province" : "Cordoba",
+            "year" : 2023,
+            "description" : "A modern landmark that beautifies the urban landscape.The Puente Centenario (Centennial Bridge) is a pedestrian structure and lookout point that connects the banks of the Suquía River in the capital (Córdoba City). It's the ideal place for a romantic walk, to capture photos at sunset, and to admire the design that integrates with Parque Las Heras (Las Heras Park)."
+        },
+        {
+            "place_name" : "Cordoba Chaple",
+            "image" : "images/meetup",
+            "province" : "Cordoba",
+            "year" : 2023,
+            "description" : " We were also able to serve as counselors at the MeetUp where we helped our youth find a testimony and also helped them gain the desire to go to FSY (For the Strength of Youth) so they could learn even more about the teachings of Jesus Christ."
+        },
+        {
+            "place_name" : "Mar Chiquita",
+            "image" : "images/miramar",
+            "province" : "Cordoba",
+            "year" : 2022,
+            "description" :"The gateway to the wonder of Laguna Mar Chiquita (Ansenuza National Park). Miramar is a unique destination in Córdoba, famous for observing flamingos and other birds.And if you are lovers of mystery, you cannot miss seeing the ruins of the Gran Hotel Viena. A sea of birds in the heart of Argentina!"
+        },
+        {
+            "place_name" :"Peninsula Valdez",
+            "image" : "images/peninsula_valdez",
+            "province" : "Chubut",
+            "year" : 2023,
+            "description" :"A World Heritage site and a sanctuary of marine life. Península Valdés is a place to dedicate several days to and marvel at the fauna.Here, the star is the Atlantic, home to Southern Right Whales, Elephant Seals, Orcas (Killer Whales), and Penguins. An epic and unforgettable Patagonian experience."
+        },
+        {
+            "place_name" :"Puerto Madryn",
+            "image" : "images/puerto_madryn",
+            "province" : "Chubut",
+            "year" : 2024,
+            "description" : "The ideal city for exploring the Patagonian coast. Puerto Madryn is the base of operations for all excursions to Península Valdés.Famous for being the National Diving Capital, it offers incredible experiences like snorkeling with sea lions. Plus, its seafood gastronomy is a must-try."
+        },
+        {
+            "place_name" : "Punta Tombo",
+            "image" : "images/punta_tombo" ,
+            "province" : "Chubut",
+            "year" : 2024,
+            "description" : "Simply magical. Punta Tombo is home to the largest continental colony of Magellanic penguins. Walking along the trails while thousands of penguins cross right beside you is an experience that connects you with nature in a unique way.A must-see if you are visiting Patagonia."
+        },
+        {
+            "place_name" : "Trelew",
+            "image" : "images/tralew" ,
+            "province" : "Chubut",
+            "year" : 2023,
+            "description" : "The city with a dinosaur soul. Trelew is world-famous for the Egidio Feruglio Paleontological Museum (MEF), which has a spectacular fossil collection.If you love ancient history and want to see the remains of the Patagotitan mayorum, this is the place!"
+        },
+        {
+            "place_name" : "Sarmiento Park",
+            "image" : "images/sarmiento_park",
+            "province" : "Cordoba",
+            "year" : 2022,
+            "description" : "The city's great green lung. Designed by the architect Carlos Thays, Sarmiento Park is perfect for walking, playing sports, or simply relaxing.The Bicentennial Lighthouse (Faro del Bicentenario) and the Artificial Lake add a special touch. It's a green and historic space in the middle of the Cordoban hustle and bustle."
+        }
+    ]
+}

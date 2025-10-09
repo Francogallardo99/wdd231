@@ -52,7 +52,6 @@ function displayFilteredBusinesses(businesses) {
 
     container.appendChild(card);
 
-    // Clases para estilos
     card.classList.add('business-card');
     description.classList.add('description');
     membershipLevel.classList.add('member-level');
