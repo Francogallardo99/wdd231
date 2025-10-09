@@ -207,3 +207,14 @@ footer {
 .submit_button:hover {
     background-color: #032953; 
 }
+
+.trip_card{
+    border: solid black 2px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    align-items: center;
+}
+.random{
+    text-align: center;
+    font-size: 1.9rem;
+}
