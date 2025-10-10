@@ -14,7 +14,8 @@ export function processURLParameters() {
     <p><strong>Place of the story:</strong> ${params.get("place_story") || "N/A"}</p>
     <p><strong>Email:</strong> ${params.get("email") || "N/A"}</p>
     <p><strong>Date:</strong> ${params.get("date") || "N/A"}</p>
-    <p><strong>Your story:</strong> ${params.get("your story") || "N/A"}</p>
+    <p><strong>Your story:</strong> ${params.get("your_story") || "N/A"}</p>
     <p><strong>Document:</strong> ${params.get("document") || "N/A"}</p>
   `;
 }
+        
