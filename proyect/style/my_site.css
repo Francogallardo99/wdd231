@@ -218,3 +218,79 @@ footer {
     text-align: center;
     font-size: 1.9rem;
 }
+.porpouse{
+    font-size: 1.2rem;
+    grid-column: 1 / span 2;
+    text-align: center;
+    border-bottom: solid gray;
+    border-top: solid gray;
+}
+.porpouse h2{
+    text-decoration:underline;
+}
+
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 10; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.8);
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    position: relative; 
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal{
+    align-items: center;
+}
+
+.trip_card_preview img {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+    border-radius: 4px;
+    display: block; 
+}
+
+.trip_card_preview img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.thankyou_main{
+    border: #000 2px solid;
+    text-align: center;
+    
+}
