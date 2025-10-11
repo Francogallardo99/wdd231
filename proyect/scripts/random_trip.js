@@ -15,12 +15,12 @@ function displayModalDetails(trip) {
     const picture = document.createElement("img"); 
 
     name.textContent = trip.place_name; 
-    province.innerHTML = `<strong>Provincia: </strong> ${trip.province}`;
-    year.innerHTML = `<strong>Año: </strong> ${trip.year}`;
-    description.innerHTML = `<strong>Descripción: </strong> ${trip.description}`;
+    province.innerHTML = `<strong>Province: </strong> ${trip.province}`;
+    year.innerHTML = `<strong>Year: </strong> ${trip.year}`;
+    description.innerHTML = `<strong>Description: </strong> ${trip.description}`;
 
     picture.setAttribute("src", trip.image);
-    picture.setAttribute("alt", `Imagen de ${trip.place_name}`);
+    picture.setAttribute("alt", `Image of ${trip.place_name}`);
     picture.style.maxWidth = '100%'; 
     picture.style.height = 'auto';
 
